@@ -1,6 +1,22 @@
 # University of Calgary - IBM Quantum Workshop
 
-2025-04-14
+April 14-15, 2025
+
+## The Challenge
+
+For this challenge, you will conduct a utility-scale quantum computation using an IBM Quantum system with over 100 qubits. It will involve mapping a physics problem to a quantum circuit and quantum operator using Qiskit and the Qiskit Runtime. You will need optimize the circuit to take the most advantage of the target hardware in order to obtain high fidelity results. Error mitigation and suppression techniques will be useful for getting the best results.
+
+The challenge notebook will be released into this Github repo on the first day of the challenge (April 14).
+
+## Requirements
+
+- Python 3.9 or higher
+- Qiskit v2. or higher
+- Qiskit IBM Runtime v0.37 or higher
+- Qiskit Aer
+- A Jupyter notebook environment (e.g. Jupyter, Colab, Visual Studio Code, etc.)
+
+You will also need an account on the IBM Quantum platform. Please reach out to your course instructor to arrange.
 
 ## Installing Qiskit
 
@@ -29,8 +45,8 @@ Now, skip to the Install Qiskit packages section for further instructions.
 
 ### Install Anaconda Python or Miniconda.
 
-Install Anaconda from here: https://www.anaconda.com/download, OR
-install Miniconda from here: https://docs.anaconda.com/miniconda/miniconda-other-installer-links/
+Install Anaconda from here: [https://www.anaconda.com/download](https://www.anaconda.com/download), OR
+install Miniconda from here: [https://docs.anaconda.com/miniconda/miniconda-other-installer-links/](https://docs.anaconda.com/miniconda/miniconda-other-installer-links/)
 
 Create a conda environment and activate:
 ```
@@ -58,3 +74,9 @@ pip install qiskit-aer
 Install Jupyter and other tools:
 ```
 pip install jupyter matplotlib pylatexenc
+```
+
+## Further information
+
+- Qiskit Documentation: [https://docs.quantum.ibm.com](https://docs.quantum.ibm.com)
+- Qiskit installation instructions: [https://docs.quantum.ibm.com/guides/install-qiskit](https://docs.quantum.ibm.com/guides/install-qiskit)
